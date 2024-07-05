@@ -1,0 +1,14 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const classNameInput = document.getElementById('classNameInput');
+    const addClassButton = document.getElementById('addClassButton');
+    const paragraph = document.getElementById('paragraph');
+
+    addClassButton.addEventListener('click', () => {
+        const className = classNameInput.value.trim();
+
+        if (className) {
+            paragraph.textContent += ` ${className}`;
+            classNameInput.value = '';  // ניקוי שדה הטקסט אחרי הוספת המחלקה
+        }
+    });
+});
