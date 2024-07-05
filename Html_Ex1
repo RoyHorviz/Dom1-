@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom#1</title>
+    
+</head>
+<body>
+    <h1>Ex1</h1>
+    <input type="text" id="classNameInput" placeholder="add your text">
+    <button id="addClassButton">add text</button>
+    <p id="paragraph">add a your story to this paragraphe</p>
+    <script src="js.js" defer></script>
+</body>
+</html>
