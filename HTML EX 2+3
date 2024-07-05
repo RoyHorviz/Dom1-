@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 2+3 </title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <section id="paragraphContainer">
+        <p id="paragraph1" class="visible">java script is fun subject</p>
+        <button onclick="toggleVisibility('paragraph1')">click on me</button>
+
+        <p id="paragraph2" class="visible">i learn at pet handasaim school</p>
+        <button onclick="toggleVisibility('paragraph2')">click on me</button>
+
+        <p id="paragraph3" class="visible">how aboet an a ?</p>
+        <button onclick="toggleVisibility('paragraph3')">click on me</button>
+    </section>
+
+    <section>
+        <button id="changeTextButton">click on me</button>
+    </section>
+
+    <script src="js.js" defer></script>
+</body>
+</html>
